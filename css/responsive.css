@@ -1,19 +1,33 @@
-/* Min Width 1200px and Max Width 1399px */
+/* Min Width 300px and Max Width 991px */
 
-@media (min-width: 1200px) and (max-width: 1399px) {
-}
+@media (min-width: 300px) and (max-width: 991px) {
+  .hero-content h2 {
+    font-size: 30px;
+  }
 
-/* Min Width 992px and Max Width 1199px */
+  .hero-content p {
+    font-size: 18px;
+    padding-right: 0;
+  }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-}
+  .form-heading {
+    margin: 0 10px;
+  }
 
-/* Min Width 768px and Max Width 991px */
+  .form-heading h3 {
+    font-size: 22px;
+  }
 
-@media (min-width: 768px) and (max-width: 991px) {
-}
+  .form-fields {
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
 
-/* Min Width 300px and Max Width 767px */
+  .form-checkboxes {
+    padding-left: 10px;
+  }
 
-@media (min-width: 300px) and (max-width: 767px) {
+  .checkbox-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
