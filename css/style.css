@@ -1,0 +1,149 @@
+/* Base Style CSS Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Style CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h2 {
+  font-size: 44px;
+  text-transform: capitalize;
+  padding-top: 40px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 22px;
+  color: #000;
+  padding-right: 50px;
+}
+
+/* Hero Section CSS End */
+
+/* Form Section CSS Start */
+
+.form-heading {
+  padding: 20px 0 15px;
+  border: 1px solid #707070;
+}
+
+.form-heading h3 {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.form-container {
+  padding-top: 55px;
+}
+
+.form-fields {
+  padding-right: 40px;
+}
+
+.form-checkboxes {
+  padding-left: 40px;
+}
+
+.field-control-wrapper input,
+.field-control-wrapper select {
+  font-size: 18px;
+  color: #707070;
+  padding: 25px 35px 20px;
+  border: 1px solid #707070;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.field-control-wrapper input:focus,
+.field-control-wrapper select:focus {
+  outline: 0;
+}
+
+.form-container ::placeholder {
+  font-size: 18px;
+  color: #707070;
+}
+
+span.LV_validation_message.LV_valid {
+  color: green;
+}
+
+span.LV_validation_message.LV_invalid {
+  color: red;
+}
+
+.form-container h4.elq-heading.form-element-form-text {
+  font-size: 18px;
+  color: #000000;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.single-checkbox-row {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border: 1px solid #b8b8b8;
+}
+
+.single-checkbox-row label {
+  font-size: 16px;
+  color: #707070;
+  padding-left: 12px;
+}
+
+.submit-button {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+  padding: 18px 42px;
+  border: 1px solid #707070;
+  border-radius: 50px;
+}
+
+/* Form Section CSS End */
+
+/* Footer Section CSS Start */
+
+.footer-wrapper {
+  padding: 40px 0;
+  margin-top: 100px;
+  border-top: 2px solid #707070;
+}
+
+.footer-content p {
+  font-size: 18px;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+/* Footer Section CSS End */
