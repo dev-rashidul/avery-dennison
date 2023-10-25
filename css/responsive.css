@@ -1,6 +1,10 @@
 /* Min Width 300px and Max Width 991px */
 
 @media (min-width: 300px) and (max-width: 991px) {
+  .container {
+    padding: 0 20px;
+  }
+
   .hero-content h2 {
     font-size: 30px;
   }
@@ -11,7 +15,7 @@
   }
 
   .form-heading {
-    margin: 0 10px;
+    margin: 0 20px;
   }
 
   .form-heading h3 {
